@@ -1,0 +1,62 @@
+.header-icon {
+  height: 38px;
+  margin-right: 20px;
+}
+
+.header-icon:last-child {
+  margin-right: 0;
+}
+
+.header-nav-logo {
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 45%;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 29px;
+  border-bottom: 0.2px solid #262555;
+}
+
+.header-baner-logo {
+  width: 888px;
+}
+
+.header-slogan {
+  color: #262555;
+  text-align: center;
+  font-family: "Gill Sans";
+  font-weight: 1000;
+  font-size: 29px;
+  margin-top: 23px;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 62px;
+}
+
+.header-beer {
+  height: 640px;
+}
+
+.header-beer-ipa {
+  transform: rotate(25deg);
+}
+
+.header-beer-blonde {
+  transform: rotate(-25deg);
+}
+
+.header-beer-brune {
+  padding-top: 27px;
+}
+
+.header-box-beer {
+  margin-top: 44px;
+}
