@@ -15,6 +15,11 @@
   padding: 0;
 }
 
+div.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   font-size: 16px;
   background: #fffbeb;
@@ -38,6 +43,11 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+header {
+  max-height: 920px;
+  overflow: hidden;
 }
 
 // .row + .row {
