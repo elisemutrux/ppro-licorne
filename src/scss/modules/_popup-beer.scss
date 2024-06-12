@@ -15,19 +15,18 @@
   transition-property: opacity;
   transition-duration: 0.3s ease-in;
   margin-left: 10px;
-  right: -10px;
 
-  // &.t-blonde {
-  //   background: #ffd3dc00;
-  // }
+  &.t-blonde {
+    background: #ffd3dc;
+  }
 
   &.t-brune {
     background: #71bd91;
   }
 
-  // &.t-ipa {
-  //   background: #ffe69400;
-  // }
+  &.t-ipa {
+    background: #ffe694;
+  }
 }
 
 .popup-beer.is-open {
