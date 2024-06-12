@@ -1,9 +1,11 @@
-var burger = document.querySelector(".burger");
-var menu = document.querySelector(".burger-menu");
+var popupOpen = document.querySelector(".products-background-brune");
+var popupBox = document.querySelector(".popup-beer");
+var popupClose = document.querySelector(".popup-beer-cross");
 
-var toggleMenu = function toggleMenu() {
-  menu.classList.toggle("is-active");
-  burger.classList.toggle("is-active");
-};
+popupOpen.addEventListener("click", function (toogle) {
+  popupBox.classList.add("is-open");
+});
 
-burger.addEventListener("click", toggleMenu);
+popupClose.addEventListener("click", function (toogle) {
+  popupBox.classList.remove("is-open");
+});

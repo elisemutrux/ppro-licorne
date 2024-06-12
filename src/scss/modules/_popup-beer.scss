@@ -1,12 +1,70 @@
 .popup-beer-base {
   position: relative;
+  overflow: hidden;
 }
 
 .popup-beer {
   position: absolute;
-  background: #71bd91;
-  width: 1143px;
-  height: 620px;
+  width: 100%;
+  padding: 5px;
+  height: 100%;
   inset: 1;
   z-index: 3;
+  opacity: 0;
+  pointer-events: none;
+  transition-property: opacity;
+  transition-duration: 0.3s ease-in;
+  margin-left: 10px;
+  right: -10px;
+
+  // &.t-blonde {
+  //   background: #ffd3dc00;
+  // }
+
+  &.t-brune {
+    background: #71bd91;
+  }
+
+  // &.t-ipa {
+  //   background: #ffe69400;
+  // }
+}
+
+.popup-beer.is-open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.popup-beer-title {
+  margin: 31px 31px 55px;
+  color: #262555;
+  font-family: obviously-narrow;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 88px;
+}
+
+.popup-beer-img {
+  position: absolute;
+  z-index: 2;
+  height: 500px;
+  bottom: 65px;
+  right: 186px;
+}
+
+.popup-beer-text {
+  margin-left: 35px;
+  width: 42%;
+  color: #000;
+  font-family: inter-variable, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.popup-beer-cross {
+  position: absolute;
+  right: 1;
+  top: 1;
+  margin: 58px;
 }
