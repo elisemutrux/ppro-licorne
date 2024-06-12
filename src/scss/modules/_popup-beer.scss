@@ -1,0 +1,12 @@
+.popup-beer-base {
+  position: relative;
+}
+
+.popup-beer {
+  position: absolute;
+  background: #71bd91;
+  width: 1143px;
+  height: 620px;
+  inset: 1;
+  z-index: 3;
+}
