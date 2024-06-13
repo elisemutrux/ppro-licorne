@@ -29,9 +29,16 @@
   font-size: 18px;
   font-weight: 400;
   border-radius: 39px;
-  border: 1px solid #000;
+  border: 1px solid #262555;
   display: flex;
   padding: 12px 25px 7px;
   justify-content: center;
   align-items: center;
+  color: #262555;
+  transition: background 0.3s, color 0.3s;
+
+  &:hover {
+    background: #262555;
+    color: white;
+  }
 }

@@ -26,11 +26,45 @@
             <div></div>
           </div>
           <div class="burger-menu">
-            <ul>
-              <li><a href="#">Lien 1</a></li>
-              <li><a href="#">Lien 2</a></li>
-              <li><a href="#">Lien 3</a></li>
-            </ul>
+            <img class="burger-logo" src="img/logo.svg" />
+            <div class="container">
+              <div class="row">
+                <div class="col-5">
+                  <ul class="burger-first-column">
+                    <li><a class="burger-link" href="#beer">nos bières</a></li>
+                    <br />
+                    <li><a class="burger-link" href="#">notre histoire</a></li>
+                    <br />
+                    <li><a class="burger-link" href="#">shop</a></li>
+                    <br />
+                    <li><a class="burger-link" href="#">point de vente</a></li>
+                    <br />
+                    <li><a class="burger-link" href="#">contact</a></li>
+                    <br />
+                  </ul>
+                </div>
+                <div class="col-6 offset-1">
+                  <ul class="burger-second-column">
+                    <li>
+                      <a class="burger-link t-no-hover" href="#">newsletter</a>
+                    </li>
+                    <br />
+                    <li class="burger-newsletter-text">
+                      Inscrivez-vous à notre Newsletter pour avoir des
+                      nouveautés en premier
+                    </li>
+                    <br />
+                    <form class="burger-email-enter">
+                      <input
+                        type="text"
+                        name="email"
+                        placeholder="entrez votre adresse email..."
+                      />
+                    </form>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -67,8 +101,8 @@
     </header>
     <div class="container-fluid">
       <div class="baner-background">
-        <div class="marquee">
-          <div class="marquee__inner" aria-hidden="true">
+        <div class="baner">
+          <div class="baner-inner">
             <span> Brasserie Artisanale </span>
             <span> – </span>
             <span> Estavayer-Le-Lac </span>
@@ -135,7 +169,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <h2 class="products-title">Nos produits pour vous</h2>
+          <h2 id="beer" class="products-title">Nos produits pour vous</h2>
         </div>
       </div>
     </div>
@@ -294,9 +328,13 @@
               Inscrivez-vous à notre Newsletter pour être au courant de nos
               nouveautés.
             </div>
-            <div class="footer-newsletter-box">
-              entrez votre adresse email...
-            </div>
+            <form class="footer-newsletter-box">
+              <input
+                type="text"
+                name="email"
+                placeholder="entrez votre adresse email..."
+              />
+            </form>
           </div>
           <div class="col-3 offset-1">
             <h3 class="footer-subtitel">infos utiles</h3>

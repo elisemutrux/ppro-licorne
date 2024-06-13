@@ -12,7 +12,7 @@
   font-family: obviously, sans-serif;
 }
 
-.marquee {
+.baner {
   user-select: none;
   position: relative;
   overflow: hidden;
@@ -22,22 +22,22 @@
   --move-final: calc(-75% + var(--offset));
 }
 
-.marquee__inner {
+.baner-inner {
   width: fit-content;
   display: flex;
   position: relative;
   transform: translate3d(var(--move-initial), 0, 0);
-  animation: marquee 30s linear infinite;
+  animation: scroll 40s linear infinite;
 }
 
-.marquee span {
+.baner span {
   white-space: nowrap;
   font-size: 18px;
   padding: 0 2vw;
   color: white;
 }
 
-@keyframes marquee {
+@keyframes scroll {
   0% {
     transform: translate3d(var(--move-initial), 0, 0);
   }
