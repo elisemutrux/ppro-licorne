@@ -101,19 +101,34 @@
   margin-top: 14px;
 }
 
-.burger-email-enter input {
-  color: rgba(0, 0, 0, 0.5);
-  font-family: inter-variable, sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  border-radius: 34px;
+.burger-email-enter {
   background: rgba(0, 0, 0, 0.04);
+  border-radius: 34px;
   margin-top: 28px;
-  padding: 10px 24px;
+  padding: 8px 9px 8px 24px;
+  display: flex;
+}
+
+.burger-email-enter input {
+  font-weight: 400;
   border: 0;
   width: 100%;
+  outline: 0;
+  border: none;
+  outline: none;
+  width: 96%;
+  color: black;
+  background: transparent;
 
   &::placeholder {
     width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: inter-variable, sans-serif;
+    font-size: 15px;
   }
+}
+
+.burger-newsletter-icon-send {
+  height: 27px;
+  cursor: pointer;
 }
