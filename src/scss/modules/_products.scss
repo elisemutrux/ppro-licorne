@@ -48,4 +48,17 @@
   height: 570px;
   bottom: 1;
   right: 1;
+  transition: ease-out 0.1s;
+}
+
+.products-background-brune:hover .products-beer-img {
+  transform: scale(1.1);
+}
+
+.products-background-blonde:hover .products-beer-img {
+  transform: scale(1.1);
+}
+
+.products-background-ipa:hover .products-beer-img {
+  transform: scale(1.1);
 }
